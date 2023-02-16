@@ -1,15 +1,22 @@
-#include<stdio.h>
+#include <unistd.h>
 
 /**
- *  * * main -Entry point*
- *    * *Description: "and that piece of art that is useful"
- *     * "-Dora Kopar, 2015-10-19"
- *      * *
- *       * *Return: Always 0 (Success)
- */
-
+ *  * main - Entry point of the program
+ *   *
+ *    * Description: Prints "and that piece of art is useful" -
+ *     *              Dora Korpar, 2015-10-19, followed by a new line, to the
+ *      *              standard error.
+ *       * Return: 1
+ *        */
 int main(void)
 {
-		write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-			return (1);
+	    char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	        int len = 0;
+
+		    while (str[len] != '\0')
+			            len++;
+
+		        write(2, str, len);
+
+			    return (1);
 }
