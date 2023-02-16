@@ -2,8 +2,7 @@
 #include<unistd.h>
 
 /**
- *  * * main -Entry point
- *   * *
+ *  * * main -Entry point*
  *    * *Description: "and that piece of art that is useful"
  *     * "-Dora Kopar, 2015-10-19"
  *      * *
