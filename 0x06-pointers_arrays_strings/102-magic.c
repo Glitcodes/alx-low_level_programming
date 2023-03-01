@@ -1,12 +1,4 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Description: This is the main function that executes the program.
- *
- * Return: Always 0 (Success)
- */
-
 int main(void)
 {
 	int n;
